@@ -1,0 +1,24 @@
+{
+  "name": "node-ejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "babel-node app.js",
+    "dev": "nodemon app.js --exec babel-node"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@feathersjs/express": "^4.5.11",
+    "@feathersjs/feathers": "^4.5.11",
+    "@feathersjs/socketio": "^4.5.11",
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "dotenv": "^8.2.0",
+    "mongoose": "^5.12.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
